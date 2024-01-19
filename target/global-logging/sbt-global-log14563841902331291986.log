@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 20.0.1)
+[debug] Load.defaultLoad until apply took 634.9274ms
+[debug]           Load.loadUnit: plugins took 331.4971ms
+[debug]           Load.loadUnit: defsScala took 0.8197ms
+[debug] [Loading] Scanning directory C:\Users\Yassir\Projects\Scala\newSparkFinal\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Yassir\Projects\Scala\newSparkFinal\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 73.4846 ms
+[debug]               Load.resolveProject(newsparkfinal-build) took 240.6402ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id newsparkfinal-build, base: C:\Users\Yassir\Projects\Scala\newSparkFinal\project, plugins: List(<none>))) took 407.0634ms
+[debug] [Loading] Done in C:\Users\Yassir\Projects\Scala\newSparkFinal\project, returning: (newsparkfinal-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 524.7225ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.6297ms
+[debug]         Load.loadUnit(file:/C:/Users/Yassir/Projects/Scala/newSparkFinal/project/, ...) took 876.3087ms
+[debug]       Load.apply: load took 1612.3279ms
+[debug]       Load.apply: resolveProjects took 15.0995ms
+[debug]       Load.apply: finalTransforms took 613.2135ms
+[debug]       Load.apply: config.delegates took 32.2124ms
+[debug]       Load.apply: Def.make(settings)... took 2316.7761ms
+[debug]       Load.apply: structureIndex took 654.8615ms
+[debug]       Load.apply: mkStreams took 7.6543ms
+[info] loading project definition from C:\Users\Yassir\Projects\Scala\newSparkFinal\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 13986.5049ms
+[debug]     Load.loadUnit: defsScala took 0.0081ms
+[debug] [Loading] Scanning directory C:\Users\Yassir\Projects\Scala\newSparkFinal
+[debug]       Load.loadUnit: mkEval took 10.4129ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.8362 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.1139ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Yassir\Projects\Scala\newSparkFinal, plugins: List(<none>))) took 13.8395ms
+[debug] [Loading] Done in C:\Users\Yassir\Projects\Scala\newSparkFinal, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 9982.0136ms
+[debug]     Load.loadUnit: cleanEvalClasses took 72.8783ms
+[debug]   Load.loadUnit(file:/C:/Users/Yassir/Projects/Scala/newSparkFinal/, ...) took 24046.5129ms
+[debug] Load.apply: load took 24120.0865ms
+[debug] Load.apply: resolveProjects took 0.3894ms
+[debug] Load.apply: finalTransforms took 40.2049ms
+[debug] Load.apply: config.delegates took 0.6534ms
+[debug] Load.apply: Def.make(settings)... took 228.7839ms
+[debug] Load.apply: structureIndex took 78.2236ms
+[debug] Load.apply: mkStreams took 0.0033ms
+[info] set current project to newSparkFinal (in build file:/C:/Users/Yassir/Projects/Scala/newSparkFinal/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-cd474979eb01d7f134f6
+[debug] Writing bsp connection file
+[info] started sbt server

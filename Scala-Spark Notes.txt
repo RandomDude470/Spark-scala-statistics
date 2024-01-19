@@ -1,0 +1,12 @@
+Scala Installation : straightforward install coursier and it downloads all dependencies 
+
+Spark with scala : Problematic 
+1. Make sure to use the right ver of scala and jdk (scala 1.12.12 jdk 8/11/17)
+2. for intellij install  go to module settings and add the spark jars to the module library 
+3. for JDK-17 jvm-options must be added :
+	1.Right click Class or object name
+	2.Go to modify run configuration
+	3. click modify options in blue
+	4. Under Java select Add VM options
+	5. A new field will appear in which type "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+	6. Hit OK and run the program
